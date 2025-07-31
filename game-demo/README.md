@@ -1,18 +1,18 @@
 # Game Demo
 
-A minimal Three.js third-person sword fighting demo based on the
-`webgl_animation_multiple` example.
-
-The character model is loaded from `https://example.com/models/SwordMan.glb`.
-Replace this URL in `main.js` with a GLB model containing running, strike,
-block and dodge animations.
+A small Three.js action prototype featuring melee and magic abilities. The
+player and two enemies use the same animated model loaded from
+`https://threejs.org/examples/models/gltf/Knight.glb`.
 
 Controls:
 
-* **WASD** – Move/rotate the character
-* **J** – Strike
-* **K** – Block
-* **L** – Dodge
+* **WASD** – Move/rotate
+* **Click** – Sword strike
+* **Space** – Block
+* **Z** – Dodge
+* **X** – Fireball
+* **Q** – Teleport to crosshair
+* **E** – Magical shield
 
 Run a local web server in this folder to play:
 
